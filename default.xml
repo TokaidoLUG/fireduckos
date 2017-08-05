@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote  name="yocto" fetch="git://git.yoctoproject.org/" />
+	<remote  name="tokaidolug" fetch="https://github.com/TokaidoLUG/" />
+	<remote  name="watatuki" fetch="https://github.com/watatuki/" />
+	
+	<default revision="master" />
+
+	<!-- Yocto Layers -->
+	<project path="poky" name="poky" remote="yocto" revision="pyro" />
+	<project path="meta-efl-rebuilding" name="meta-efl-rebuilding" remote="watatuki" revision="master" />
+
+	<!-- distro Layers -->
+	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="master" />
+
+	<!-- bsp Layers -->
+	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="pyro" />
+	<project path="meta-intel" name="meta-intel" remote="yocto" revision="pyro" />
+	<project path="meta-intel-mobilel" name="meta-intel-mobile" remote="tokaidolug" revision="master" />
+</manifest>
