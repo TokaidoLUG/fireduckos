@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote  name="yocto" fetch="git://git.yoctoproject.org/" pushurl="git://git.yoctoproject.org/" />
+	<remote  name="openembedded" fetch="git://git.openembedded.org/" pushurl="git://git.openembedded.org/" />
+	<remote  name="OSSystems" fetch="git://github.com/OSSystems/" pushurl="git://github.com/OSSystems/" />
+
 	<remote  name="tokaidolug" fetch="https://github.com/TokaidoLUG/" pushurl="https://github.com/TokaidoLUG/" />
 	<remote  name="watatuki" fetch="https://github.com/watatuki/" pushurl="https://github.com/watatuki/" />
 	
@@ -8,6 +11,11 @@
 
 	<!-- Yocto Layers -->
 	<project path="poky" name="poky" remote="yocto" revision="pyro" />
+
+	<!-- Openembedded Layers -->
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="pyro" />
+	<project path="meta-browser" name="meta-browser" remote="OSSystems" revision="master" />
+
 	<project path="meta-efl-rebuilding" name="meta-efl-rebuilding" remote="watatuki" revision="master" />
 
 	<!-- distro Layers -->
