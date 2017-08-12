@@ -22,7 +22,7 @@
 	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="master" />
 
 	<!-- bsp Layers -->
-	<project path="meta-jetson-tk1" name="meta-jetson-tk1.git" remote="watatuki" revision="pyro" />
+	<project path="meta-jetson-tk1" name="meta-jetson-tk1" remote="watatuki" revision="pyro" />
 	<project path="meta-intel" name="meta-intel" remote="yocto" revision="pyro" />
 	<project path="meta-intel-mobile" name="meta-intel-mobile" remote="tokaidolug" revision="master" />
 </manifest>
