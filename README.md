@@ -26,5 +26,5 @@ or
 source meta-fireduck/scripts/fireducksetup.sh -m jetson-tk1  
 
 
-bitbake efl-image
+bitbake fireduck-image
 
