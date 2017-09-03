@@ -22,12 +22,21 @@ repo init -u https://github.com/TokaidoLUG/fireduckos
 
 repo sync
 
-source meta-fireduck/scripts/fireducksetup.sh -m intel-mobile-64  
+source meta-fireduck/scripts/fireducksetup.sh -m intel-mobile-64 enlightenment   
 or  
-source meta-fireduck/scripts/fireducksetup.sh -m jetson-tk1  
+source meta-fireduck/scripts/fireducksetup.sh -m jetson-tk1 enlightenment   
 
 
 bitbake fireduck-image
+
+
+Select machine :
+====================================================================
+The fireduck OS has the following machine:
+
+intel-mobile-64 : intel 64bit (include UEFI32 boot support)  
+intel-64 : intel 64bit (exclude UEFI32 boot support)  
+jetson-tk1 : NVIDIA jetson TK1 board  
 
 
 
@@ -35,13 +44,15 @@ Add additional functions :
 ====================================================================
 The fireduck OS has the following additional components:
 
+enlightenment : enlightenment desktop  
 browser : web browser  
 
+fireduckwm : fireduck desktop (experimental)  
 
 Activate additional functions using the setup script.
 
 source meta-fireduck/scripts/fireducksetup.sh -m *machine* *functions*
 
 For example :  
-source meta-fireduck/scripts/fireducksetup.sh -m jetson-tk1 browser  
+source meta-fireduck/scripts/fireducksetup.sh -m jetson-tk1 enlightenment browser  
 
