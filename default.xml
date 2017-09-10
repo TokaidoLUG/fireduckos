@@ -25,4 +25,5 @@
 	<project path="meta-jetson-tk1" name="meta-jetson-tk1" remote="watatuki" revision="pyro" />
 	<project path="meta-intel" name="meta-intel" remote="yocto" revision="pyro" />
 	<project path="meta-intel-mobile" name="meta-intel-mobile" remote="tokaidolug" revision="master" />
+	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="pyro" />
 </manifest>
