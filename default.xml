@@ -6,6 +6,7 @@
 
 	<remote  name="tokaidolug" fetch="https://github.com/TokaidoLUG/" pushurl="https://github.com/TokaidoLUG/" />
 	<remote  name="watatuki" fetch="https://github.com/watatuki/" pushurl="https://github.com/watatuki/" />
+	<remote  name="shimada" fetch="https://github.com/dejiko/" pushurl="https://github.com/dejiko/" />
 	
 	<default revision="master" />
 
@@ -26,4 +27,6 @@
 	<project path="meta-intel" name="meta-intel" remote="yocto" revision="pyro" />
 	<project path="meta-intel-mobile" name="meta-intel-mobile" remote="tokaidolug" revision="master" />
 	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="pyro" />
+	<project path="meta-sunxi" name="meta-sunxi" remote="linux-sunxi" revision="pyro" />
+	<project path="meta-coconport" name="meta-coconport" remote="shimada" revision="master" />
 </manifest>
