@@ -3,6 +3,7 @@
 	<remote  name="yocto" fetch="git://git.yoctoproject.org/" pushurl="git://git.yoctoproject.org/" />
 	<remote  name="openembedded" fetch="git://git.openembedded.org/" pushurl="git://git.openembedded.org/" />
 	<remote  name="OSSystems" fetch="git://github.com/OSSystems/" pushurl="git://github.com/OSSystems/" />
+	<remote  name="linux-sunxi" fetch="git://github.com/linux-sunxi/" pushurl="git://github.com/linux-sunxi/" />
 
 	<remote  name="tokaidolug" fetch="https://github.com/TokaidoLUG/" pushurl="https://github.com/TokaidoLUG/" />
 	<remote  name="watatuki" fetch="https://github.com/watatuki/" pushurl="https://github.com/watatuki/" />
