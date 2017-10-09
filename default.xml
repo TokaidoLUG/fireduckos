@@ -4,6 +4,8 @@
 	<remote  name="openembedded" fetch="git://git.openembedded.org/" pushurl="git://git.openembedded.org/" />
 	<remote  name="OSSystems" fetch="git://github.com/OSSystems/" pushurl="git://github.com/OSSystems/" />
 	<remote  name="linux-sunxi" fetch="git://github.com/linux-sunxi/" pushurl="git://github.com/linux-sunxi/" />
+	<remote  name="meta-qt5" fetch="https://github.com/meta-qt5/" pushurl="https://github.com/meta-qt5/" />
+	<remote  name="schnitzeltony" fetch="https://github.com/schnitzeltony/" pushurl="https://github.com/schnitzeltony/" />
 
 	<remote  name="tokaidolug" fetch="https://github.com/TokaidoLUG/" pushurl="https://github.com/TokaidoLUG/" />
 	<remote  name="watatuki" fetch="https://github.com/watatuki/" pushurl="https://github.com/watatuki/" />
@@ -18,7 +20,10 @@
 	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="pyro" />
 	<project path="meta-browser" name="meta-browser" remote="OSSystems" revision="master" />
 
+	<!-- function Layers -->
 	<project path="meta-efl-rebuilding" name="meta-efl-rebuilding" remote="watatuki" revision="master" />
+	<project path="meta-qt5" name="meta-qt5" remote="meta-qt5" revision="pyro" />
+	<project path="meta-qt5-extra" name="meta-qt5-extra" remote="schnitzeltony" revision="1364d8a052ee198ec83e0826f1e0036d2772a319" />
 
 	<!-- distro Layers -->
 	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="master" />
