@@ -14,25 +14,25 @@
 	<default revision="master" />
 
 	<!-- Yocto Layers -->
-	<project path="poky" name="poky" remote="yocto" revision="pyro" />
+	<project path="poky" name="poky" remote="yocto" revision="rocko" />
 
 	<!-- Openembedded Layers -->
-	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="pyro" />
+	<project path="meta-openembedded" name="meta-openembedded" remote="openembedded" revision="rocko" />
 	<project path="meta-browser" name="meta-browser" remote="OSSystems" revision="master" />
 
 	<!-- function Layers -->
 	<project path="meta-efl-rebuilding" name="meta-efl-rebuilding" remote="watatuki" revision="master" />
-	<project path="meta-qt5" name="meta-qt5" remote="meta-qt5" revision="pyro" />
-	<project path="meta-qt5-extra" name="meta-qt5-extra" remote="schnitzeltony" revision="1364d8a052ee198ec83e0826f1e0036d2772a319" />
+	<project path="meta-qt5" name="meta-qt5" remote="meta-qt5" revision="rocko" />
+	<project path="meta-qt5-extra" name="meta-qt5-extra" remote="schnitzeltony" revision="rocko" />
 
 	<!-- distro Layers -->
-	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="master" />
+	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="change-rocko" />
 
 	<!-- bsp Layers -->
-	<project path="meta-jetson-tk1" name="meta-jetson-tk1" remote="watatuki" revision="pyro" />
-	<project path="meta-intel" name="meta-intel" remote="yocto" revision="pyro" />
-	<project path="meta-intel-mobile" name="meta-intel-mobile" remote="tokaidolug" revision="master" />
-	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="pyro" />
+	<project path="meta-jetson-tk1" name="meta-jetson-tk1" remote="watatuki" revision="rocko" />
+	<project path="meta-intel" name="meta-intel" remote="yocto" revision="rocko" />
+	<project path="meta-intel-mobile" name="meta-intel-mobile" remote="tokaidolug" revision="change-rocko" />
+	<project path="meta-raspberrypi" name="meta-raspberrypi" remote="yocto" revision="rocko" />
 	<project path="meta-sunxi" name="meta-sunxi" remote="linux-sunxi" revision="pyro" />
 	<project path="meta-coconport" name="meta-coconport" remote="shimada" revision="master" />
 </manifest>
