@@ -23,7 +23,7 @@
 	<!-- function Layers -->
 	<project path="meta-efl-rebuilding" name="meta-efl-rebuilding" remote="watatuki" revision="master" />
 	<project path="meta-qt5" name="meta-qt5" remote="meta-qt5" revision="rocko" />
-	<project path="meta-qt5-extra" name="meta-qt5-extra" remote="schnitzeltony" revision="rocko" />
+	<project path="meta-qt5-extra" name="meta-qt5-extra" remote="watatuki" revision="rocko" />
 
 	<!-- distro Layers -->
 	<project path="meta-fireduck" name="meta-fireduck" remote="tokaidolug" revision="change-rocko" />
