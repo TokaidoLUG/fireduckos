@@ -4,7 +4,7 @@
 
 You need a install various packages.
 
-example: Ubuntu 14.04
+example: Ubuntu 14.04 and 16.04  
 
 ```
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \  
@@ -52,9 +52,11 @@ The Fireduck OS has the following machine:
 
 The Fireduck OS has the following additional components:
 
-- `enlightenment` : enlightenment desktop  
+- `plasma` : kde plasma desktop (experimental)  
+- `lxqt` : lxqt desktop (experimental)  
 - `browser` : web browser  
-- `fireduckwm` : fireduck desktop (experimental)  
+- `fireduckwm` : fireduck desktop (may discontinued)  
+- `enlightenment` : enlightenment desktop (may discontinued)  
 
 Activate additional functions using the setup script.
 
